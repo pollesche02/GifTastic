@@ -20,16 +20,35 @@ body{
         box-shadow: 0 0 10px 2px;
     }
 
+.animations {
+        color: maroon;
+}
+
 #add-animations {
     float: inline-start;
+}
+
+#buttons-view {
+    border-style: round;
+    margin:25px;
+    padding-left: 150px;
+    border-color: black;
+    border-width: 20px;
+    
+
 }
 
 h1 {
     font-family: cursive;
     font-style: italic;
+    font-size: 100px;
     padding: 10px 10px 10px 10px;
     justify-content: center;
 }
 
+h2 {
+    font-size: 40px;
+    font-display: center;
+}
 
 
