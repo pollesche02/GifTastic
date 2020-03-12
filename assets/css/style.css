@@ -3,32 +3,35 @@ body{
         --hue: var(--hue-neutral);
         padding: 0;
         margin: 0;
-        display: flex;
         width: 100vw;
         height: 100vh;
         justify-content: center;
         align-items: center;
-        background-color: lightslategrey;
+        background-image: url("http://i.stack.imgur.com/wK4XB.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 .container {
-        width: 800px;
-        max-width: 80%;
-        background: url(https://media1.giphy.com/media/2YEH4u9t14U6s/200.webp?cid=790b761111fbf8c9f648555056c01d2e9ba969583da8f281&rid=200.webp);
+        color:orange;
+        max-width: 100%;
         border-radius: 25px;
-        padding: 10px;
+        padding: 50px;
         box-shadow: 0 0 10px 2px;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin:35px;
     }
 
-.animations {
-        color: maroon;
+.animations-btn{
+    margin: 5px;
+    background-color: rgba(255, 166, 0, 0.603);
+    color: white;
+    font-weight: bold;
 }
 
-#add-animations {
-    float: inline-start;
-}
-
-#buttons-view {
+/* #buttons-view {
     border-style: round;
     margin:25px;
     padding-left: 150px;
@@ -36,7 +39,7 @@ body{
     border-width: 20px;
     
 
-}
+} */
 
 h1 {
     font-family: cursive;
@@ -51,4 +54,25 @@ h2 {
     font-display: center;
 }
 
+/* #buttons-view {
+    display: block;
+    width: 80%;
+    border: none;
 
+    color: white;
+    padding: 10px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  } */
+/*   
+  #buttons-view:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+
+  .animation{
+      width: 350px;
+      height: 350px;
+      margin:5px;
+  }
